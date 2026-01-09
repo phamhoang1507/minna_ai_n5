@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "366278746826",
+    "project_id": "minna-ai-n5",
+    "storage_bucket": "minna-ai-n5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366278746826:android:72b44ba6b747aaad1eca33",
+        "android_client_info": {
+          "package_name": "com.example.minna_ai_n5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366278746826-hpth81lrd4dcsr5sv1ps2fmrd6nh44gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBalUkLBElrcHBqLqTFJ_FEEBNAdxfjW54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366278746826-hpth81lrd4dcsr5sv1ps2fmrd6nh44gm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "366278746826-jdohs95deracslsba7d6a8t3j9hk30od.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.minnaAiN5"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
