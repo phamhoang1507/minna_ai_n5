@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import '../../utils/date_utils.dart';
+import 'package:minna_ai_n5/utils/date_utils.dart';
 
 class StreakService {
   final _firestore = FirebaseFirestore.instance;

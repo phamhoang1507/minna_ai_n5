@@ -1,35 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'providers/auth_init_provider.dart';
-import 'screens/splash/splash_screen.dart';
-import 'screens/home/home_screen.dart';
-import 'screens/error/error_screen.dart';
-
-class MyApp extends StatelessWidget {
+import 'package:minna_ai_n5/routes/app_routes.dart';
+class MyApp extends ConsumerWidget {
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return ProviderScope(
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Consumer(
-          builder: (context, ref, _) {
-            final authState = ref.watch(authInitProvider);
+  Widget build(BuildContext context, WidgetRef ref) {
+    final router = ref.watch(appRouterProvider); // ← Lấy router từ provider
 
-            return authState.when(
-              data: (_) => const HomeScreen(),
-              loading: () => const SplashScreen(),
-              // error: (_, __) => const ErrorScreen(),
-              error: (error, stack) {
-                debugPrint('AUTH ERROR: $error');
-                debugPrintStack(stackTrace: stack);
-                return const ErrorScreen();
-              },
-            );
-          },
-        ),
-      ),
+    return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
+      title: 'Minna AI N5',
+      routerConfig: router,
+      theme: ThemeData(useMaterial3: true),
+      supportedLocales: const [Locale('vi'), Locale('en')],
     );
   }
 }
