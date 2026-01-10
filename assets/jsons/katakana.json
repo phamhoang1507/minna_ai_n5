@@ -1,0 +1,278 @@
+[
+    {
+        "id": "katakana_a",
+        "char": "ア",
+        "romaji": "a",
+        "audio": "audio/katakana/a.mp3"
+    },
+    {
+        "id": "katakana_i",
+        "char": "イ",
+        "romaji": "i",
+        "audio": "audio/katakana/i.mp3"
+    },
+    {
+        "id": "katakana_u",
+        "char": "ウ",
+        "romaji": "u",
+        "audio": "audio/katakana/u.mp3"
+    },
+    {
+        "id": "katakana_e",
+        "char": "エ",
+        "romaji": "e",
+        "audio": "audio/katakana/e.mp3"
+    },
+    {
+        "id": "katakana_o",
+        "char": "オ",
+        "romaji": "o",
+        "audio": "audio/katakana/o.mp3"
+    },
+    {
+        "id": "katakana_ka",
+        "char": "カ",
+        "romaji": "ka",
+        "audio": "audio/katakana/ka.mp3"
+    },
+    {
+        "id": "katakana_ki",
+        "char": "キ",
+        "romaji": "ki",
+        "audio": "audio/katakana/ki.mp3"
+    },
+    {
+        "id": "katakana_ku",
+        "char": "ク",
+        "romaji": "ku",
+        "audio": "audio/katakana/ku.mp3"
+    },
+    {
+        "id": "katakana_ke",
+        "char": "ケ",
+        "romaji": "ke",
+        "audio": "audio/katakana/ke.mp3"
+    },
+    {
+        "id": "katakana_ko",
+        "char": "コ",
+        "romaji": "ko",
+        "audio": "audio/katakana/ko.mp3"
+    },
+    {
+        "id": "katakana_sa",
+        "char": "サ",
+        "romaji": "sa",
+        "audio": "audio/katakana/sa.mp3"
+    },
+    {
+        "id": "katakana_shi",
+        "char": "シ",
+        "romaji": "shi",
+        "audio": "audio/katakana/shi.mp3"
+    },
+    {
+        "id": "katakana_su",
+        "char": "ス",
+        "romaji": "su",
+        "audio": "audio/katakana/su.mp3"
+    },
+    {
+        "id": "katakana_se",
+        "char": "セ",
+        "romaji": "se",
+        "audio": "audio/katakana/se.mp3"
+    },
+    {
+        "id": "katakana_so",
+        "char": "ソ",
+        "romaji": "so",
+        "audio": "audio/katakana/so.mp3"
+    },
+    {
+        "id": "katakana_ta",
+        "char": "タ",
+        "romaji": "ta",
+        "audio": "audio/katakana/ta.mp3"
+    },
+    {
+        "id": "katakana_chi",
+        "char": "チ",
+        "romaji": "chi",
+        "audio": "audio/katakana/chi.mp3"
+    },
+    {
+        "id": "katakana_tsu",
+        "char": "ツ",
+        "romaji": "tsu",
+        "audio": "audio/katakana/tsu.mp3"
+    },
+    {
+        "id": "katakana_te",
+        "char": "テ",
+        "romaji": "te",
+        "audio": "audio/katakana/te.mp3"
+    },
+    {
+        "id": "katakana_to",
+        "char": "ト",
+        "romaji": "to",
+        "audio": "audio/katakana/to.mp3"
+    },
+    {
+        "id": "katakana_na",
+        "char": "ナ",
+        "romaji": "na",
+        "audio": "audio/katakana/na.mp3"
+    },
+    {
+        "id": "katakana_ni",
+        "char": "ニ",
+        "romaji": "ni",
+        "audio": "audio/katakana/ni.mp3"
+    },
+    {
+        "id": "katakana_nu",
+        "char": "ヌ",
+        "romaji": "nu",
+        "audio": "audio/katakana/nu.mp3"
+    },
+    {
+        "id": "katakana_ne",
+        "char": "ネ",
+        "romaji": "ne",
+        "audio": "audio/katakana/ne.mp3"
+    },
+    {
+        "id": "katakana_no",
+        "char": "ノ",
+        "romaji": "no",
+        "audio": "audio/katakana/no.mp3"
+    },
+    {
+        "id": "katakana_ha",
+        "char": "ハ",
+        "romaji": "ha",
+        "audio": "audio/katakana/ha.mp3"
+    },
+    {
+        "id": "katakana_hi",
+        "char": "ヒ",
+        "romaji": "hi",
+        "audio": "audio/katakana/hi.mp3"
+    },
+    {
+        "id": "katakana_fu",
+        "char": "フ",
+        "romaji": "fu",
+        "audio": "audio/katakana/fu.mp3"
+    },
+    {
+        "id": "katakana_he",
+        "char": "ヘ",
+        "romaji": "he",
+        "audio": "audio/katakana/he.mp3"
+    },
+    {
+        "id": "katakana_ho",
+        "char": "ホ",
+        "romaji": "ho",
+        "audio": "audio/katakana/ho.mp3"
+    },
+    {
+        "id": "katakana_ma",
+        "char": "マ",
+        "romaji": "ma",
+        "audio": "audio/katakana/ma.mp3"
+    },
+    {
+        "id": "katakana_mi",
+        "char": "ミ",
+        "romaji": "mi",
+        "audio": "audio/katakana/mi.mp3"
+    },
+    {
+        "id": "katakana_mu",
+        "char": "ム",
+        "romaji": "mu",
+        "audio": "audio/katakana/mu.mp3"
+    },
+    {
+        "id": "katakana_me",
+        "char": "メ",
+        "romaji": "me",
+        "audio": "audio/katakana/me.mp3"
+    },
+    {
+        "id": "katakana_mo",
+        "char": "モ",
+        "romaji": "mo",
+        "audio": "audio/katakana/mo.mp3"
+    },
+    {
+        "id": "katakana_ya",
+        "char": "ヤ",
+        "romaji": "ya",
+        "audio": "audio/katakana/ya.mp3"
+    },
+    {
+        "id": "katakana_yu",
+        "char": "ユ",
+        "romaji": "yu",
+        "audio": "audio/katakana/yu.mp3"
+    },
+    {
+        "id": "katakana_yo",
+        "char": "ヨ",
+        "romaji": "yo",
+        "audio": "audio/katakana/yo.mp3"
+    },
+    {
+        "id": "katakana_ra",
+        "char": "ラ",
+        "romaji": "ra",
+        "audio": "audio/katakana/ra.mp3"
+    },
+    {
+        "id": "katakana_ri",
+        "char": "リ",
+        "romaji": "ri",
+        "audio": "audio/katakana/ri.mp3"
+    },
+    {
+        "id": "katakana_ru",
+        "char": "ル",
+        "romaji": "ru",
+        "audio": "audio/katakana/ru.mp3"
+    },
+    {
+        "id": "katakana_re",
+        "char": "レ",
+        "romaji": "re",
+        "audio": "audio/katakana/re.mp3"
+    },
+    {
+        "id": "katakana_ro",
+        "char": "ロ",
+        "romaji": "ro",
+        "audio": "audio/katakana/ro.mp3"
+    },
+    {
+        "id": "katakana_wa",
+        "char": "ワ",
+        "romaji": "wa",
+        "audio": "audio/katakana/wa.mp3"
+    },
+    {
+        "id": "katakana_wo",
+        "char": "ヲ",
+        "romaji": "wo",
+        "audio": "audio/katakana/wo.mp3"
+    },
+    {
+        "id": "katakana_n",
+        "char": "ン",
+        "romaji": "n",
+        "audio": "audio/katakana/n.mp3"
+    }
+]

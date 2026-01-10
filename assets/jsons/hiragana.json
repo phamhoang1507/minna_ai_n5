@@ -1,0 +1,278 @@
+[
+    {
+        "id": "hiragana_a",
+        "char": "あ",
+        "romaji": "a",
+        "audio": "audio/hiragana/a.mp3"
+    },
+    {
+        "id": "hiragana_i",
+        "char": "い",
+        "romaji": "i",
+        "audio": "audio/hiragana/i.mp3"
+    },
+    {
+        "id": "hiragana_u",
+        "char": "う",
+        "romaji": "u",
+        "audio": "audio/hiragana/u.mp3"
+    },
+    {
+        "id": "hiragana_e",
+        "char": "え",
+        "romaji": "e",
+        "audio": "audio/hiragana/e.mp3"
+    },
+    {
+        "id": "hiragana_o",
+        "char": "お",
+        "romaji": "o",
+        "audio": "audio/hiragana/o.mp3"
+    },
+    {
+        "id": "hiragana_ka",
+        "char": "か",
+        "romaji": "ka",
+        "audio": "audio/hiragana/ka.mp3"
+    },
+    {
+        "id": "hiragana_ki",
+        "char": "き",
+        "romaji": "ki",
+        "audio": "audio/hiragana/ki.mp3"
+    },
+    {
+        "id": "hiragana_ku",
+        "char": "く",
+        "romaji": "ku",
+        "audio": "audio/hiragana/ku.mp3"
+    },
+    {
+        "id": "hiragana_ke",
+        "char": "け",
+        "romaji": "ke",
+        "audio": "audio/hiragana/ke.mp3"
+    },
+    {
+        "id": "hiragana_ko",
+        "char": "こ",
+        "romaji": "ko",
+        "audio": "audio/hiragana/ko.mp3"
+    },
+    {
+        "id": "hiragana_sa",
+        "char": "さ",
+        "romaji": "sa",
+        "audio": "audio/hiragana/sa.mp3"
+    },
+    {
+        "id": "hiragana_shi",
+        "char": "し",
+        "romaji": "shi",
+        "audio": "audio/hiragana/shi.mp3"
+    },
+    {
+        "id": "hiragana_su",
+        "char": "す",
+        "romaji": "su",
+        "audio": "audio/hiragana/su.mp3"
+    },
+    {
+        "id": "hiragana_se",
+        "char": "せ",
+        "romaji": "se",
+        "audio": "audio/hiragana/se.mp3"
+    },
+    {
+        "id": "hiragana_so",
+        "char": "そ",
+        "romaji": "so",
+        "audio": "audio/hiragana/so.mp3"
+    },
+    {
+        "id": "hiragana_ta",
+        "char": "た",
+        "romaji": "ta",
+        "audio": "audio/hiragana/ta.mp3"
+    },
+    {
+        "id": "hiragana_chi",
+        "char": "ち",
+        "romaji": "chi",
+        "audio": "audio/hiragana/chi.mp3"
+    },
+    {
+        "id": "hiragana_tsu",
+        "char": "つ",
+        "romaji": "tsu",
+        "audio": "audio/hiragana/tsu.mp3"
+    },
+    {
+        "id": "hiragana_te",
+        "char": "て",
+        "romaji": "te",
+        "audio": "audio/hiragana/te.mp3"
+    },
+    {
+        "id": "hiragana_to",
+        "char": "と",
+        "romaji": "to",
+        "audio": "audio/hiragana/to.mp3"
+    },
+    {
+        "id": "hiragana_na",
+        "char": "な",
+        "romaji": "na",
+        "audio": "audio/hiragana/na.mp3"
+    },
+    {
+        "id": "hiragana_ni",
+        "char": "に",
+        "romaji": "ni",
+        "audio": "audio/hiragana/ni.mp3"
+    },
+    {
+        "id": "hiragana_nu",
+        "char": "ぬ",
+        "romaji": "nu",
+        "audio": "audio/hiragana/nu.mp3"
+    },
+    {
+        "id": "hiragana_ne",
+        "char": "ね",
+        "romaji": "ne",
+        "audio": "audio/hiragana/ne.mp3"
+    },
+    {
+        "id": "hiragana_no",
+        "char": "の",
+        "romaji": "no",
+        "audio": "audio/hiragana/no.mp3"
+    },
+    {
+        "id": "hiragana_ha",
+        "char": "は",
+        "romaji": "ha",
+        "audio": "audio/hiragana/ha.mp3"
+    },
+    {
+        "id": "hiragana_hi",
+        "char": "ひ",
+        "romaji": "hi",
+        "audio": "audio/hiragana/hi.mp3"
+    },
+    {
+        "id": "hiragana_fu",
+        "char": "ふ",
+        "romaji": "fu",
+        "audio": "audio/hiragana/fu.mp3"
+    },
+    {
+        "id": "hiragana_he",
+        "char": "へ",
+        "romaji": "he",
+        "audio": "audio/hiragana/he.mp3"
+    },
+    {
+        "id": "hiragana_ho",
+        "char": "ほ",
+        "romaji": "ho",
+        "audio": "audio/hiragana/ho.mp3"
+    },
+    {
+        "id": "hiragana_ma",
+        "char": "ま",
+        "romaji": "ma",
+        "audio": "audio/hiragana/ma.mp3"
+    },
+    {
+        "id": "hiragana_mi",
+        "char": "み",
+        "romaji": "mi",
+        "audio": "audio/hiragana/mi.mp3"
+    },
+    {
+        "id": "hiragana_mu",
+        "char": "む",
+        "romaji": "mu",
+        "audio": "audio/hiragana/mu.mp3"
+    },
+    {
+        "id": "hiragana_me",
+        "char": "め",
+        "romaji": "me",
+        "audio": "audio/hiragana/me.mp3"
+    },
+    {
+        "id": "hiragana_mo",
+        "char": "も",
+        "romaji": "mo",
+        "audio": "audio/hiragana/mo.mp3"
+    },
+    {
+        "id": "hiragana_ya",
+        "char": "や",
+        "romaji": "ya",
+        "audio": "audio/hiragana/ya.mp3"
+    },
+    {
+        "id": "hiragana_yu",
+        "char": "ゆ",
+        "romaji": "yu",
+        "audio": "audio/hiragana/yu.mp3"
+    },
+    {
+        "id": "hiragana_yo",
+        "char": "よ",
+        "romaji": "yo",
+        "audio": "audio/hiragana/yo.mp3"
+    },
+    {
+        "id": "hiragana_ra",
+        "char": "ら",
+        "romaji": "ra",
+        "audio": "audio/hiragana/ra.mp3"
+    },
+    {
+        "id": "hiragana_ri",
+        "char": "り",
+        "romaji": "ri",
+        "audio": "audio/hiragana/ri.mp3"
+    },
+    {
+        "id": "hiragana_ru",
+        "char": "る",
+        "romaji": "ru",
+        "audio": "audio/hiragana/ru.mp3"
+    },
+    {
+        "id": "hiragana_re",
+        "char": "れ",
+        "romaji": "re",
+        "audio": "audio/hiragana/re.mp3"
+    },
+    {
+        "id": "hiragana_ro",
+        "char": "ろ",
+        "romaji": "ro",
+        "audio": "audio/hiragana/ro.mp3"
+    },
+    {
+        "id": "hiragana_wa",
+        "char": "わ",
+        "romaji": "wa",
+        "audio": "audio/hiragana/wa.mp3"
+    },
+    {
+        "id": "hiragana_wo",
+        "char": "を",
+        "romaji": "wo",
+        "audio": "audio/hiragana/wo.mp3"
+    },
+    {
+        "id": "hiragana_n",
+        "char": "ん",
+        "romaji": "n",
+        "audio": "audio/hiragana/n.mp3"
+    }
+]

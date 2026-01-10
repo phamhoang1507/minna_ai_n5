@@ -1,0 +1,48 @@
+// navigation_manager.dart
+
+import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+
+class NavigationManager {
+  // Singleton
+  static final NavigationManager _instance = NavigationManager._internal();
+  factory NavigationManager() => _instance;
+  NavigationManager._internal();
+
+  // Route names
+  static const String splash = 'splash';
+  static const String welcome = 'welcome';
+  static const String login = 'login';
+  static const String register = 'register';
+  static const String forgetPassword = 'forget';
+  static const String home = 'home';
+  static const String alphabet = 'alphabet';
+  static const String hiragana = 'hiragana';
+  static const String katakana = 'katakana';
+
+  // Route paths
+  static const String splashPath = '/splash';
+  static const String welcomePath = '/welcome';
+  static const String loginPath = '/login';
+  static const String registerPath = '/register';
+  static const String forgetPasswordPath = '/forget-password';
+  static const String homePath = '/home';
+  static const String alphabetPath = '/alphabet';
+  static const String alphabetHiraganaPath = '/alphabet/hiragana';
+  static const String alphabetKatakanaPath = '/alphabet/katakana';
+
+  // Navigation methods
+  void toHome(BuildContext context) => context.go(homePath);
+  void toAlphabetMenu(BuildContext context) => context.push(alphabetPath);
+  void toAlphabetHiragana(BuildContext context) =>
+      context.push(alphabetHiraganaPath);
+  void toAlphabetKatakana(BuildContext context) =>
+      context.push(alphabetKatakanaPath);
+  void toLogin(BuildContext context) => context.go(loginPath);
+  void toWelcome(BuildContext context) => context.go(welcomePath);
+}
+
+// Extension để dùng dễ dàng: context.nav.toHome()
+extension NavigationManagerExtension on BuildContext {
+  NavigationManager get nav => NavigationManager();
+}
