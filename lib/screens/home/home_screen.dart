@@ -145,6 +145,12 @@ class HomeScreen extends ConsumerWidget {
                 ),
                 sliver: SliverList(
                   delegate: SliverChildListDelegate([
+                    ElevatedButton(
+                      onPressed: () {
+                        context.nav.toSettings(context);
+                      },
+                      child: Text('SETTING'),
+                    ),
                     _ModernHomeCard(
                       title: '文字',
                       subtitle: 'Bảng chữ cái',
