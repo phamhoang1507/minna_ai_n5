@@ -25,7 +25,6 @@ class StreakService {
     int newStreak = currentStreak;
 
     if (lastStudyDate == today) {
-      // đã tính streak hôm nay → không làm gì
       return;
     }
 
@@ -35,14 +34,30 @@ class StreakService {
       newStreak = 1;
     }
 
-    await userRef.update({
-      'lastStudyDate': today,
-      'streak': newStreak,
-    });
+    await userRef.update({'lastStudyDate': today, 'streak': newStreak});
 
-    await userRef
-        .collection('daily_activity')
-        .doc(today)
-        .set({'studied': true});
+    await userRef.collection('daily_activity').doc(today).set({
+      'studied': true,
+    });
+  }
+
+  Future<void> updateStreak() async {
+    final user = _auth.currentUser;
+    if (user == null) return;
+
+    final userRef = _firestore.collection('users').doc(user.uid);
+
+    final snapshot = await userRef.get();
+    if (!snapshot.exists) return;
+
+    final data = snapshot.data()!;
+    final lastStudyDate = data['lastStudyDate'];
+
+    final today = DateUtilsHelper.todayKey();
+    final yesterday = DateUtilsHelper.yesterdayKey();
+
+    if (lastStudyDate != today && lastStudyDate != yesterday) {
+      await userRef.update({'streak': 0});
+    }
   }
 }

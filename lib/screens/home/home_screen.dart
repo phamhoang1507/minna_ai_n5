@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:minna_ai_n5/providers/streak_provider.dart';
 import 'package:minna_ai_n5/providers/user_provider.dart';
 import 'package:minna_ai_n5/routes/navigation_manager.dart';
 import 'package:minna_ai_n5/utils/date_utils.dart';
@@ -10,7 +11,10 @@ class HomeScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final userDoc = ref.watch(userDocProvider);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      ref.read(streakServiceProvider).updateStreak();
+    });
+    final userDoc = ref.watch(userStreamProvider);
 
     return Scaffold(
       body: Container(
@@ -170,7 +174,9 @@ class HomeScreen extends ConsumerWidget {
                       icon: Icons.book_rounded,
                       gradientColors: [Color(0xFFF093FB), Color(0xFFF5576C)],
                       delay: 100,
-                      onTap: () {},
+                      onTap: () {
+                        context.nav.toVocabularytMenu(context);
+                      },
                     ),
                     SizedBox(height: R.h(context, 2)),
                     _ModernHomeCard(

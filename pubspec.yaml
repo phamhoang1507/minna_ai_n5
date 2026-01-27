@@ -31,5 +31,6 @@ flutter:
   uses-material-design: true
   assets:
     - assets/jsons/
+    - assets/jsons/vocabulary/
     - assets/audio/hiragana/
     - assets/audio/katakana/
