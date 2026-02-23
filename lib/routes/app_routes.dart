@@ -7,6 +7,8 @@ import 'package:minna_ai_n5/providers/auth_init_provider.dart';
 import 'package:minna_ai_n5/routes/navigation_manager.dart';
 import 'package:minna_ai_n5/screens/alphabet/alphabet_flashcard_screen.dart';
 import 'package:minna_ai_n5/screens/alphabet/alphabet_menu_screen.dart';
+import 'package:minna_ai_n5/screens/exercise/exercise_detail_screen.dart';
+import 'package:minna_ai_n5/screens/exercise/exercise_screen.dart';
 import 'package:minna_ai_n5/screens/home/home_screen.dart';
 import 'package:minna_ai_n5/screens/login/login_screen.dart';
 import 'package:minna_ai_n5/screens/setting/setting_screen.dart';
@@ -231,10 +233,25 @@ List<RouteBase> _protectedRoutes() {
           pageBuilder: (context, GoRouterState state) {
             final lessonNumber = state.pathParameters['lessonNumber']!;
             return MaterialPage(
-              child: LessonDetailScreen(
-                lessonNumber: int.parse(lessonNumber),
-              ),
+              child: LessonDetailScreen(lessonNumber: int.parse(lessonNumber)),
             );
+          },
+        ),
+      ],
+    ),
+
+    // Exercise
+    GoRoute(
+      path: NavigationManager.exercisePath,
+      name: NavigationManager.exercise,
+      builder: (context, state) => const ExerciseScreen(),
+      routes: [
+        GoRoute(
+          path: ':id',
+          pageBuilder: (context, GoRouterState state) {
+            final idParam = state.pathParameters['id']!;
+            final ids = idParam.split(',').map(int.parse).toList();
+            return MaterialPage(child: ExerciseDetailScreen(exerciseId: ids));
           },
         ),
       ],

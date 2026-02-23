@@ -3,14 +3,14 @@ import 'package:minna_ai_n5/routes/navigation_manager.dart';
 import 'package:minna_ai_n5/utils/app_theme.dart';
 import 'package:minna_ai_n5/utils/responsive.dart';
 
-class VocabularyScreen extends StatefulWidget {
-  const VocabularyScreen({super.key});
+class ExerciseScreen extends StatefulWidget {
+  const ExerciseScreen({super.key});
 
   @override
-  State<VocabularyScreen> createState() => _VocabularyScreenState();
+  State<ExerciseScreen> createState() => _ExerciseScreenState();
 }
 
-class _VocabularyScreenState extends State<VocabularyScreen>
+class _ExerciseScreenState extends State<ExerciseScreen>
     with SingleTickerProviderStateMixin {
   late AnimationController _headerController;
   late Animation<double> _headerSlide;
@@ -49,7 +49,7 @@ class _VocabularyScreenState extends State<VocabularyScreen>
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [Color(0xFFF093FB), Color(0xFFF5576C), Color(0xFFFF8A00)],
+            colors: [Color(0xFF56AB2F), Color(0xFFA8E063), Color(0xFFA7E063)],
             stops: [0.0, 0.5, 1.0],
           ),
         ),
@@ -94,7 +94,7 @@ class _VocabularyScreenState extends State<VocabularyScreen>
                         bottom: R.h(context, 2),
                       ),
                       physics: const BouncingScrollPhysics(),
-                      itemCount: 26,
+                      itemCount: 31,
                       itemBuilder: (context, index) {
                         return _LessonCard(
                           lessonNumber: index,
@@ -156,7 +156,7 @@ class _VocabularyScreenState extends State<VocabularyScreen>
                     ),
                     SizedBox(width: R.w(context, 2)),
                     Text(
-                      '26 Bài học',
+                      '31 Bài tập',
                       style: TextStyle(
                         fontSize: R.fs(context, 3.5),
                         fontWeight: FontWeight.w700,
@@ -170,7 +170,7 @@ class _VocabularyScreenState extends State<VocabularyScreen>
           ),
           SizedBox(height: R.h(context, 3)),
           Text(
-            '単語',
+            '練習',
             style: TextStyle(
               fontSize: R.fs(context, 14),
               fontWeight: FontWeight.w900,
@@ -187,7 +187,7 @@ class _VocabularyScreenState extends State<VocabularyScreen>
           ),
           SizedBox(height: R.h(context, 0.5)),
           Text(
-            'Từ vựng Minna no Nihongo',
+            'Luyện tập từ vựng Minna no Nihongo',
             style: TextStyle(
               fontSize: R.fs(context, 4.5),
               fontWeight: FontWeight.w600,
@@ -279,11 +279,35 @@ class _LessonCardState extends State<_LessonCard>
 
   @override
   Widget build(BuildContext context) {
-    final isPreLesson = widget.lessonNumber == 0;
-    final lessonTitle = isPreLesson ? 'PRE' : '${widget.lessonNumber}';
-    final lessonSubtitle = isPreLesson
-        ? 'Bài chuẩn bị'
-        : 'Bài học ${widget.lessonNumber}';
+    final index = widget.lessonNumber;
+
+    final isPreLesson = index == 0;
+
+    final isReview = index > 0 && (index % 6 == 0);
+
+    int realLessonNumber;
+    String lessonTitle;
+    String lessonSubtitle;
+    List<int> lessonNumbersForExercise = [];
+
+    if (isPreLesson) {
+      lessonTitle = "PRE";
+      lessonSubtitle = "Luyện tập chuẩn bị";
+      lessonNumbersForExercise.add(index);
+    } else if (isReview) {
+      final end = (index ~/ 6) * 5;
+      final start = end - 4;
+      lessonTitle = "$start - $end";
+      lessonSubtitle = "Ôn tập bài $lessonTitle";
+      lessonNumbersForExercise = List.generate(5, (i) => start + i);
+    } else {
+      // Tính lại số bài thật (bỏ PRE + bỏ các bài review phía trước)
+      final reviewCountBefore = index ~/ 6;
+      realLessonNumber = index - reviewCountBefore;
+      lessonTitle = "$realLessonNumber";
+      lessonSubtitle = "Luyện tập bài $realLessonNumber";
+      lessonNumbersForExercise.add(index);
+    }
 
     final gradientColor1 = isPreLesson
         ? Color(0xFFFFD93D)
@@ -309,7 +333,7 @@ class _LessonCardState extends State<_LessonCard>
           onTapDown: (_) => setState(() => _isPressed = true),
           onTapUp: (_) {
             setState(() => _isPressed = false);
-            context.nav.toVocabularyDetail(context, widget.lessonNumber);
+            context.nav.toExerciseDetail(context, lessonNumbersForExercise);
           },
           onTapCancel: () => setState(() => _isPressed = false),
           child: AnimatedContainer(
@@ -460,7 +484,7 @@ class _LessonCardState extends State<_LessonCard>
                                   ),
                                   SizedBox(width: R.w(context, 1.5)),
                                   Text(
-                                    'Từ vựng cơ bản',
+                                    'Kiểm tra từ vựng',
                                     style: TextStyle(
                                       fontSize: R.fs(context, 3.2),
                                       color: AppTheme.secondaryText,

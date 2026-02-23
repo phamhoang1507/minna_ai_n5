@@ -175,7 +175,7 @@ class HomeScreen extends ConsumerWidget {
                       gradientColors: [Color(0xFFF093FB), Color(0xFFF5576C)],
                       delay: 100,
                       onTap: () {
-                        context.nav.toVocabularytMenu(context);
+                        context.nav.toVocabularyMenu(context);
                       },
                     ),
                     SizedBox(height: R.h(context, 2)),
@@ -187,6 +187,18 @@ class HomeScreen extends ConsumerWidget {
                       gradientColors: [Color(0xFF4FACFE), Color(0xFF00F2FE)],
                       delay: 200,
                       onTap: () {},
+                    ),
+                    SizedBox(height: R.h(context, 2)),
+                    _ModernHomeCard(
+                      title: '練習',
+                      subtitle: 'Luyện tập',
+                      description: 'Kiểm tra & ôn tập kiến thức',
+                      icon: Icons.quiz_rounded,
+                      gradientColors: [Color(0xFF56AB2F), Color(0xFFA8E063)],
+                      delay: 200,
+                      onTap: () {
+                        context.nav.toExerciseMenu(context);
+                      },
                     ),
                     SizedBox(height: R.h(context, 2)),
                     _ModernHomeCard(

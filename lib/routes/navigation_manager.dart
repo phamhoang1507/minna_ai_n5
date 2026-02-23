@@ -37,6 +37,10 @@ class NavigationManager {
   static const String vocabularyPath = '/vocabulary';
   static const String vocabularyDetailPath = '/vocabulary/:id';
 
+  static const String exercise = 'exercise';
+  static const String exercisePath = '/exercise';
+  static const String exerciseDetailPath = '/exercise/:id';
+
   static const String hiragana = 'hiragana';
   static const String alphabetHiraganaPath = '/alphabet/hiragana';
 
@@ -49,8 +53,12 @@ class NavigationManager {
   // Navigation methods
   void toHome(BuildContext context) => context.go(homePath);
   void toAlphabetMenu(BuildContext context) => context.push(alphabetPath);
-  void toVocabularytMenu(BuildContext context) => context.push(vocabularyPath);
-  void toVocabularytDetail(BuildContext context, int lessonNumber) => context.push('/vocabulary/$lessonNumber');
+  void toVocabularyMenu(BuildContext context) => context.push(vocabularyPath);
+  void toVocabularyDetail(BuildContext context, int lessonNumber) =>
+      context.push('/vocabulary/$lessonNumber');
+  void toExerciseMenu(BuildContext context) => context.push(exercisePath);
+  void toExerciseDetail(BuildContext context, List<int> exerciseId) =>
+      context.push('/exercise/${exerciseId.join(',')}');
   void toAlphabetHiragana(BuildContext context) =>
       context.push(alphabetHiraganaPath);
   void toAlphabetKatakana(BuildContext context) =>

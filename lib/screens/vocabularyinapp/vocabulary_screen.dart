@@ -309,7 +309,7 @@ class _LessonCardState extends State<_LessonCard>
           onTapDown: (_) => setState(() => _isPressed = true),
           onTapUp: (_) {
             setState(() => _isPressed = false);
-            context.nav.toVocabularytDetail(context, widget.lessonNumber);
+            context.nav.toVocabularyDetail(context, widget.lessonNumber);
           },
           onTapCancel: () => setState(() => _isPressed = false),
           child: AnimatedContainer(
