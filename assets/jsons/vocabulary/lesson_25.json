@@ -1,0 +1,193 @@
+{
+  "lesson": 25,
+  "title": "Lesson 25",
+  "words": [
+    {
+      "id": "l25_01",
+      "kana": "かんがえます",
+      "kanji": "考えます",
+      "romaji": "kangaemasu",
+      "meaning_en": "think, consider",
+      "meaning_vi": "nghĩ, suy nghĩ, cân nhắc",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/kangaemasu.mp3"
+    },
+    {
+      "id": "l25_02",
+      "kana": "つきます[えきに~]",
+      "kanji": "着きます",
+      "romaji": "tsukimasu [eki ni ~]",
+      "meaning_en": "arrive [at the station]",
+      "meaning_vi": "đến [ga tàu]",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/tsukimasu.mp3"
+    },
+    {
+      "id": "l25_03",
+      "kana": "りゅうがくします",
+      "kanji": "留学します",
+      "romaji": "ryuugaku shimasu",
+      "meaning_en": "study abroad",
+      "meaning_vi": "du học",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/ryuugaku_shimasu.mp3"
+    },
+    {
+      "id": "l25_04",
+      "kana": "とります[としを~]",
+      "kanji": "取ります",
+      "romaji": "torimasu [toshi o ~]",
+      "meaning_en": "grow old",
+      "meaning_vi": "lên tuổi, già đi",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/torimasu_toshi.mp3"
+    },
+    {
+      "id": "l25_05",
+      "kana": "いなか",
+      "kanji": "田舎",
+      "romaji": "inaka",
+      "meaning_en": "countryside, hometown",
+      "meaning_vi": "nông thôn, quê nhà",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/inaka.mp3"
+    },
+    {
+      "id": "l25_06",
+      "kana": "たいしかん",
+      "kanji": "大使館",
+      "romaji": "taishikan",
+      "meaning_en": "embassy",
+      "meaning_vi": "đại sứ quán",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/taishikan.mp3"
+    },
+    {
+      "id": "l25_07",
+      "kana": "グループ",
+      "kanji": "",
+      "romaji": "gurūpu",
+      "meaning_en": "group",
+      "meaning_vi": "nhóm",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/gurūpu.mp3"
+    },
+    {
+      "id": "l25_08",
+      "kana": "チャンス",
+      "kanji": "",
+      "romaji": "chansu",
+      "meaning_en": "chance",
+      "meaning_vi": "cơ hội",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/chansu.mp3"
+    },
+    {
+      "id": "l25_09",
+      "kana": "おく",
+      "kanji": "億",
+      "romaji": "oku",
+      "meaning_en": "hundred million",
+      "meaning_vi": "một trăm triệu",
+      "type_en": "counter",
+      "type_vi": "trợ từ đếm",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/oku.mp3"
+    },
+    {
+      "id": "l25_10",
+      "kana": "もし[~たら]",
+      "kanji": "もし[~たら]",
+      "romaji": "moshi [~tara]",
+      "meaning_en": "if ~",
+      "meaning_vi": "nếu ~",
+      "type_en": "conjunction",
+      "type_vi": "liên từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/moshi_tara.mp3"
+    },
+    {
+      "id": "l25_11",
+      "kana": "いくら[~でも]",
+      "kanji": "いくら[~でも]",
+      "romaji": "ikura [~demo]",
+      "meaning_en": "however ~, even if ~",
+      "meaning_vi": "dù... đến đâu",
+      "type_en": "conjunction",
+      "type_vi": "liên từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/ikura_demo.mp3"
+    },
+    {
+      "id": "l25_12",
+      "kana": "てんきん",
+      "kanji": "転勤",
+      "romaji": "tenkin",
+      "meaning_en": "transfer",
+      "meaning_vi": "chuyển công tác",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/tenkin.mp3"
+    },
+    {
+      "id": "l25_13",
+      "kana": "こと",
+      "kanji": "事",
+      "romaji": "koto",
+      "meaning_en": "thing, matter",
+      "meaning_vi": "việc, chuyện",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/koto.mp3"
+    },
+    {
+      "id": "l25_14",
+      "kana": "いっぱいのみましょう。",
+      "kanji": "一杯飲みましょう。",
+      "romaji": "ippai nomimashou.",
+      "meaning_en": "Let's have a drink together.",
+      "meaning_vi": "Uống một ly đi.",
+      "type_en": "expression",
+      "type_vi": "biểu thức mời",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/ippai_nomimashou.mp3"
+    },
+    {
+      "id": "l25_15",
+      "kana": "[いろいろ]おせわになりました。",
+      "kanji": "[いろいろ]お世話になりました。",
+      "romaji": "[iroiro] osewa ni narimashita.",
+      "meaning_en": "Thank you for everything you have done for me.",
+      "meaning_vi": "Cảm ơn vì đã giúp đỡ nhiều.",
+      "type_en": "expression",
+      "type_vi": "biểu thức cảm ơn",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/osewa_ni_narimashita.mp3"
+    },
+    {
+      "id": "l25_16",
+      "kana": "がんばります",
+      "kanji": "頑張ります",
+      "romaji": "ganbarimasu",
+      "meaning_en": "do one's best",
+      "meaning_vi": "cố gắng hết sức",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/ganbarimasu.mp3"
+    },
+    {
+      "id": "l25_17",
+      "kana": "どうぞおげんきで。",
+      "kanji": "どうぞお元気で。",
+      "romaji": "douzo ogenki de.",
+      "meaning_en": "Best of luck. (said when expecting a long separation)",
+      "meaning_vi": "Chúc bạn khỏe mạnh nhé.",
+      "type_en": "expression",
+      "type_vi": "biểu thức tạm biệt",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson25/douzo_ogenki_de.mp3"
+    }
+  ]
+}

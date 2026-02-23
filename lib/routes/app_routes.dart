@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:minna_ai_n5/providers/auth_init_provider.dart';
 import 'package:minna_ai_n5/routes/navigation_manager.dart';
+import 'package:minna_ai_n5/screens/ai/ai_chat_screen.dart';
 import 'package:minna_ai_n5/screens/alphabet/alphabet_flashcard_screen.dart';
 import 'package:minna_ai_n5/screens/alphabet/alphabet_menu_screen.dart';
 import 'package:minna_ai_n5/screens/home/home_screen.dart';
@@ -231,13 +232,18 @@ List<RouteBase> _protectedRoutes() {
           pageBuilder: (context, GoRouterState state) {
             final lessonNumber = state.pathParameters['lessonNumber']!;
             return MaterialPage(
-              child: LessonDetailScreen(
-                lessonNumber: int.parse(lessonNumber),
-              ),
+              child: LessonDetailScreen(lessonNumber: int.parse(lessonNumber)),
             );
           },
         ),
       ],
+    ),
+
+    // AI
+    GoRoute(
+      path: NavigationManager.aiPath,
+      name: NavigationManager.ai,
+      builder: (context, state) => const AiChatScreen(),
     ),
     GoRoute(
       path: NavigationManager.alphabetHiraganaPath,

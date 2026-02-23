@@ -1,0 +1,303 @@
+{
+  "lesson": 15,
+  "title": "Lesson 15",
+  "words": [
+    {
+      "id": "l15_01",
+      "kana": "たちます",
+      "kanji": "立ちます",
+      "romaji": "tachimasu",
+      "meaning_en": "stand up",
+      "meaning_vi": "đứng dậy",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/tachimasu.mp3"
+    },
+    {
+      "id": "l15_02",
+      "kana": "すわります",
+      "kanji": "座ります",
+      "romaji": "suwarimasu",
+      "meaning_en": "sit down",
+      "meaning_vi": "ngồi xuống",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/suwarimasu.mp3"
+    },
+    {
+      "id": "l15_03",
+      "kana": "つかいます",
+      "kanji": "使います",
+      "romaji": "tsukaimasu",
+      "meaning_en": "use",
+      "meaning_vi": "sử dụng",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/tsukaimasu.mp3"
+    },
+    {
+      "id": "l15_04",
+      "kana": "おきます",
+      "kanji": "置きます",
+      "romaji": "okimasu",
+      "meaning_en": "put",
+      "meaning_vi": "đặt, để",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/okimasu.mp3"
+    },
+    {
+      "id": "l15_05",
+      "kana": "つくります",
+      "kanji": "作ります、造ります",
+      "romaji": "tsukurimasu",
+      "meaning_en": "make, produce",
+      "meaning_vi": "làm, chế tạo",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/tsukurimasu.mp3"
+    },
+    {
+      "id": "l15_06",
+      "kana": "うります",
+      "kanji": "売ります",
+      "romaji": "urimasu",
+      "meaning_en": "sell",
+      "meaning_vi": "bán",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/urimasu.mp3"
+    },
+    {
+      "id": "l15_07",
+      "kana": "しります",
+      "kanji": "知ります",
+      "romaji": "shirimasu",
+      "meaning_en": "get to know",
+      "meaning_vi": "biết (lần đầu)",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/shirimasu.mp3"
+    },
+    {
+      "id": "l15_08",
+      "kana": "すみます",
+      "kanji": "住みます",
+      "romaji": "sumimasu",
+      "meaning_en": "be going to live",
+      "meaning_vi": "sẽ sống, định cư",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/sumimasu.mp3"
+    },
+    {
+      "id": "l15_09",
+      "kana": "けんきゅうします",
+      "kanji": "研究します",
+      "romaji": "kenkyuu shimasu",
+      "meaning_en": "do research",
+      "meaning_vi": "nghiên cứu",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/kenkyuu_shimasu.mp3"
+    },
+    {
+      "id": "l15_10",
+      "kana": "しっています",
+      "kanji": "知っています",
+      "romaji": "shitte imasu",
+      "meaning_en": "know",
+      "meaning_vi": "biết (đã biết rồi)",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/shitte_imasu.mp3"
+    },
+    {
+      "id": "l15_11",
+      "kana": "すんでいます[おおさかに~]",
+      "kanji": "",
+      "romaji": "sunde imasu [Oosaka ni ~]",
+      "meaning_en": "live [in Osaka]",
+      "meaning_vi": "sống [tại Osaka]",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/sunde_imasu.mp3"
+    },
+    {
+      "id": "l15_12",
+      "kana": "しりょう",
+      "kanji": "資料",
+      "romaji": "shiryō",
+      "meaning_en": "materials, data",
+      "meaning_vi": "tài liệu, dữ liệu",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/shiryō.mp3"
+    },
+    {
+      "id": "l15_13",
+      "kana": "カタログ",
+      "kanji": "",
+      "romaji": "katarogu",
+      "meaning_en": "catalog",
+      "meaning_vi": "danh mục, catalogue",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/katarogu.mp3"
+    },
+    {
+      "id": "l15_14",
+      "kana": "じこくひょう",
+      "kanji": "時刻表",
+      "romaji": "jikokuhyō",
+      "meaning_en": "timetable",
+      "meaning_vi": "thời gian biểu",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/jikokuhyō.mp3"
+    },
+    {
+      "id": "l15_15",
+      "kana": "ふく",
+      "kanji": "服",
+      "romaji": "fuku",
+      "meaning_en": "clothes",
+      "meaning_vi": "quần áo",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/fuku.mp3"
+    },
+    {
+      "id": "l15_16",
+      "kana": "せいひん",
+      "kanji": "製品",
+      "romaji": "seihin",
+      "meaning_en": "products",
+      "meaning_vi": "sản phẩm",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/seihin.mp3"
+    },
+    {
+      "id": "l15_17",
+      "kana": "ソフト",
+      "kanji": "",
+      "romaji": "sofuto",
+      "meaning_en": "software",
+      "meaning_vi": "phần mềm",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/sofuto.mp3"
+    },
+    {
+      "id": "l15_18",
+      "kana": "せんもん",
+      "kanji": "専門",
+      "romaji": "senmon",
+      "meaning_en": "speciality, field of study",
+      "meaning_vi": "chuyên môn, lĩnh vực nghiên cứu",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/senmon.mp3"
+    },
+    {
+      "id": "l15_19",
+      "kana": "はいしゃ",
+      "kanji": "歯医者",
+      "romaji": "haisha",
+      "meaning_en": "dentist, dentist's",
+      "meaning_vi": "nha sĩ",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/haisha.mp3"
+    },
+    {
+      "id": "l15_20",
+      "kana": "とこや",
+      "kanji": "床屋",
+      "romaji": "tokoya",
+      "meaning_en": "barber, barber's",
+      "meaning_vi": "tiệm cắt tóc nam",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/tokoya.mp3"
+    },
+    {
+      "id": "l15_21",
+      "kana": "プレイガイド",
+      "kanji": "",
+      "romaji": "purei gaido",
+      "meaning_en": "(theatre) ticket agency",
+      "meaning_vi": "đại lý bán vé (sân khấu)",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/purei_gaido.mp3"
+    },
+    {
+      "id": "l15_22",
+      "kana": "どくしん",
+      "kanji": "独身",
+      "romaji": "dokushin",
+      "meaning_en": "single, unmarried",
+      "meaning_vi": "độc thân",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/dokushin.mp3"
+    },
+    {
+      "id": "l15_23",
+      "kana": "とくに",
+      "kanji": "特に",
+      "romaji": "tokuni",
+      "meaning_en": "especially",
+      "meaning_vi": "đặc biệt",
+      "type_en": "adverb",
+      "type_vi": "trạng từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/tokuni.mp3"
+    },
+    {
+      "id": "l15_24",
+      "kana": "おもいだします",
+      "kanji": "思い出します",
+      "romaji": "omoidashimasu",
+      "meaning_en": "remember, recollect",
+      "meaning_vi": "nhớ lại",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/omoidashimasu.mp3"
+    },
+    {
+      "id": "l15_25",
+      "kana": "ごかぞく",
+      "kanji": "ご家族",
+      "romaji": "gokazoku",
+      "meaning_en": "your family",
+      "meaning_vi": "gia đình bạn",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/gokazoku.mp3"
+    },
+    {
+      "id": "l15_26",
+      "kana": "いらっしゃいます",
+      "kanji": "",
+      "romaji": "irasshaimasu",
+      "meaning_en": "be (honorific equivalent of います)",
+      "meaning_vi": "có mặt (lịch sự của います)",
+      "type_en": "verb",
+      "type_vi": "động từ lịch sự",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/irasshaimasu.mp3"
+    },
+    {
+      "id": "l15_27",
+      "kana": "こうこう",
+      "kanji": "高校",
+      "romaji": "koukou",
+      "meaning_en": "senior high school",
+      "meaning_vi": "trung học phổ thông",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson15/koukou.mp3"
+    }
+  ]
+}

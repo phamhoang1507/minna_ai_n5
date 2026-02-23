@@ -1,0 +1,204 @@
+{
+  "lesson": 24,
+  "title": "Lesson 24",
+  "words": [
+    {
+      "id": "l24_01",
+      "kana": "くれます",
+      "kanji": "呉れます",
+      "romaji": "kuremasu",
+      "meaning_en": "give (me)",
+      "meaning_vi": "cho (tôi)",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/kuremasu.mp3"
+    },
+    {
+      "id": "l24_02",
+      "kana": "つれていきます",
+      "kanji": "連れて行きます",
+      "romaji": "tsurete ikimasu",
+      "meaning_en": "take (someone)",
+      "meaning_vi": "đưa (ai đó) đi",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/tsurete_ikimasu.mp3"
+    },
+    {
+      "id": "l24_03",
+      "kana": "つれてきます",
+      "kanji": "連れて来ます",
+      "romaji": "tsurete kimasu",
+      "meaning_en": "bring (someone)",
+      "meaning_vi": "đưa (ai đó) đến",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/tsurete_kimasu.mp3"
+    },
+    {
+      "id": "l24_04",
+      "kana": "おくります[ひとを~]",
+      "kanji": "送ります",
+      "romaji": "okurimasu [hito o ~]",
+      "meaning_en": "escort [someone], go with",
+      "meaning_vi": "đưa tiễn [ai đó]",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/okurimasu.mp3"
+    },
+    {
+      "id": "l24_05",
+      "kana": "しょうかいします",
+      "kanji": "紹介します",
+      "romaji": "shoukai shimasu",
+      "meaning_en": "introduce",
+      "meaning_vi": "giới thiệu",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/shoukai_shimasu.mp3"
+    },
+    {
+      "id": "l24_06",
+      "kana": "あんないします",
+      "kanji": "案内します",
+      "romaji": "annai shimasu",
+      "meaning_en": "show around, show the way",
+      "meaning_vi": "dẫn đường, hướng dẫn",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/annai_shimasu.mp3"
+    },
+    {
+      "id": "l24_07",
+      "kana": "せつめいします",
+      "kanji": "説明します",
+      "romaji": "setsumei shimasu",
+      "meaning_en": "explain",
+      "meaning_vi": "giải thích",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/setsumei_shimasu.mp3"
+    },
+    {
+      "id": "l24_08",
+      "kana": "いれます[コーヒーを~]",
+      "kanji": "入れます",
+      "romaji": "iremasu [kōhī o ~]",
+      "meaning_en": "make [coffee]",
+      "meaning_vi": "pha [cà phê]",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/iremasu_kōhī.mp3"
+    },
+    {
+      "id": "l24_09",
+      "kana": "おじいさん/おじいちゃん",
+      "kanji": "お祖父さん/おじいちゃん",
+      "romaji": "ojiisan / ojiichan",
+      "meaning_en": "grandfather, old man",
+      "meaning_vi": "ông nội, ông ngoại, ông già",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/ojiisan.mp3"
+    },
+    {
+      "id": "l24_10",
+      "kana": "おばあさん/おばあちゃん",
+      "kanji": "お祖母さん/おばあちゃん",
+      "romaji": "obaasan / obaachan",
+      "meaning_en": "grandmother, old woman",
+      "meaning_vi": "bà nội, bà ngoại, bà già",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/obaasan.mp3"
+    },
+    {
+      "id": "l24_11",
+      "kana": "じゅんび",
+      "kanji": "準備",
+      "romaji": "junbi",
+      "meaning_en": "preparation",
+      "meaning_vi": "chuẩn bị",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/junbi.mp3"
+    },
+    {
+      "id": "l24_12",
+      "kana": "いみ",
+      "kanji": "意味",
+      "romaji": "imi",
+      "meaning_en": "meaning",
+      "meaning_vi": "ý nghĩa",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/imi.mp3"
+    },
+    {
+      "id": "l24_13",
+      "kana": "[お]かし",
+      "kanji": "[お]菓子",
+      "romaji": "[o]kashi",
+      "meaning_en": "sweets, snacks",
+      "meaning_vi": "bánh kẹo, đồ ăn vặt",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/okashi.mp3"
+    },
+    {
+      "id": "l24_14",
+      "kana": "ぜんぶ",
+      "kanji": "全部",
+      "romaji": "zenbu",
+      "meaning_en": "all",
+      "meaning_vi": "tất cả",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/zenbu.mp3"
+    },
+    {
+      "id": "l24_15",
+      "kana": "じぶんで",
+      "kanji": "自分で",
+      "romaji": "jibun de",
+      "meaning_en": "by oneself",
+      "meaning_vi": "tự mình",
+      "type_en": "adverb",
+      "type_vi": "trạng từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/jibun_de.mp3"
+    },
+    {
+      "id": "l24_16",
+      "kana": "ほかに",
+      "kanji": "外に",
+      "romaji": "hoka ni",
+      "meaning_en": "besides",
+      "meaning_vi": "ngoài ra",
+      "type_en": "adverb",
+      "type_vi": "trạng từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/hoka_ni.mp3"
+    },
+    {
+      "id": "l24_17",
+      "kana": "ワゴンしゃ",
+      "kanji": "ワゴン車",
+      "romaji": "wagon sha",
+      "meaning_en": "station wagon",
+      "meaning_vi": "xe station wagon",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/wagon_sha.mp3"
+    },
+    {
+      "id": "l24_18",
+      "kana": "[お]べんとう",
+      "kanji": "[お]弁当",
+      "romaji": "[o]bentou",
+      "meaning_en": "box lunch",
+      "meaning_vi": "cơm hộp",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson24/obentou.mp3"
+    }
+  ]
+}

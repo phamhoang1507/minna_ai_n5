@@ -37,6 +37,9 @@ class NavigationManager {
   static const String vocabularyPath = '/vocabulary';
   static const String vocabularyDetailPath = '/vocabulary/:id';
 
+  static const String ai = 'ai';
+  static const String aiPath = '/ai';
+  
   static const String hiragana = 'hiragana';
   static const String alphabetHiraganaPath = '/alphabet/hiragana';
 
@@ -50,6 +53,7 @@ class NavigationManager {
   void toHome(BuildContext context) => context.go(homePath);
   void toAlphabetMenu(BuildContext context) => context.push(alphabetPath);
   void toVocabularytMenu(BuildContext context) => context.push(vocabularyPath);
+  void toAiChat(BuildContext context) => context.push(aiPath);
   void toVocabularytDetail(BuildContext context, int lessonNumber) => context.push('/vocabulary/$lessonNumber');
   void toAlphabetHiragana(BuildContext context) =>
       context.push(alphabetHiraganaPath);

@@ -196,7 +196,9 @@ class HomeScreen extends ConsumerWidget {
                       icon: Icons.psychology_rounded,
                       gradientColors: [Color(0xFFFA709A), Color(0xFFFEE140)],
                       delay: 300,
-                      onTap: () {},
+                      onTap: () {
+                        context.nav.toAiChat(context);
+                      },
                     ),
                   ]),
                 ),

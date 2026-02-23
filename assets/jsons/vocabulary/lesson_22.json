@@ -1,0 +1,226 @@
+{
+  "lesson": 22,
+  "title": "Lesson 22",
+  "words": [
+    {
+      "id": "l22_01",
+      "kana": "きます[シャツを~]",
+      "kanji": "着ます",
+      "romaji": "kimasu [shatsu o ~]",
+      "meaning_en": "put on [a shirt, etc]",
+      "meaning_vi": "mặc [áo sơ mi, v.v.]",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/kimasu.mp3"
+    },
+    {
+      "id": "l22_02",
+      "kana": "はきます[くつを~]",
+      "kanji": "履きます",
+      "romaji": "hakimasu [kutsu o ~]",
+      "meaning_en": "put on [shoes, trousers, etc]",
+      "meaning_vi": "mang [giày, quần, v.v.]",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/hakimasu.mp3"
+    },
+    {
+      "id": "l22_03",
+      "kana": "かぶります[ぼうしを~]",
+      "kanji": "被ります",
+      "romaji": "kaburimasu [boushi o ~]",
+      "meaning_en": "put on [a hat, etc]",
+      "meaning_vi": "đội [mũ, v.v.]",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/kaburimasu.mp3"
+    },
+    {
+      "id": "l22_04",
+      "kana": "かけます[めがねを~]",
+      "kanji": "掛けます",
+      "romaji": "kakemasu [megane o ~]",
+      "meaning_en": "put on [glasses]",
+      "meaning_vi": "đeo [kính]",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/kakemasu.mp3"
+    },
+    {
+      "id": "l22_05",
+      "kana": "うまれます",
+      "kanji": "生まれます",
+      "romaji": "umaremasu",
+      "meaning_en": "be born",
+      "meaning_vi": "sinh ra",
+      "type_en": "verb",
+      "type_vi": "động từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/umaremasu.mp3"
+    },
+    {
+      "id": "l22_06",
+      "kana": "コート",
+      "kanji": "",
+      "romaji": "kōto",
+      "meaning_en": "coat",
+      "meaning_vi": "áo khoác dài",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/kōto.mp3"
+    },
+    {
+      "id": "l22_07",
+      "kana": "スーツ",
+      "kanji": "",
+      "romaji": "sūtsu",
+      "meaning_en": "suit",
+      "meaning_vi": "bộ comple",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/sūtsu.mp3"
+    },
+    {
+      "id": "l22_08",
+      "kana": "セーター",
+      "kanji": "",
+      "romaji": "sētā",
+      "meaning_en": "sweater",
+      "meaning_vi": "áo len",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/sētā.mp3"
+    },
+    {
+      "id": "l22_09",
+      "kana": "ぼうし",
+      "kanji": "帽子",
+      "romaji": "boushi",
+      "meaning_en": "hat, cap",
+      "meaning_vi": "mũ",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/boushi.mp3"
+    },
+    {
+      "id": "l22_10",
+      "kana": "めがね",
+      "kanji": "眼鏡",
+      "romaji": "megane",
+      "meaning_en": "glasses",
+      "meaning_vi": "kính mắt",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/megane.mp3"
+    },
+    {
+      "id": "l22_11",
+      "kana": "よく",
+      "kanji": "",
+      "romaji": "yoku",
+      "meaning_en": "often",
+      "meaning_vi": "thường xuyên",
+      "type_en": "adverb",
+      "type_vi": "trạng từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/yoku.mp3"
+    },
+    {
+      "id": "l22_12",
+      "kana": "おめでとうございます。",
+      "kanji": "",
+      "romaji": "omedetou gozaimasu.",
+      "meaning_en": "Congratulations. (used on birthdays, weddings, New Year's, etc.)",
+      "meaning_vi": "Chúc mừng.",
+      "type_en": "expression",
+      "type_vi": "biểu thức chúc mừng",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/omedetou_gozaimasu.mp3"
+    },
+    {
+      "id": "l22_13",
+      "kana": "こちら",
+      "kanji": "",
+      "romaji": "kochira",
+      "meaning_en": "this (polite equivalent of これ)",
+      "meaning_vi": "cái này (lịch sự)",
+      "type_en": "pronoun",
+      "type_vi": "đại từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/kochira.mp3"
+    },
+    {
+      "id": "l22_14",
+      "kana": "やちん",
+      "kanji": "家賃",
+      "romaji": "yachin",
+      "meaning_en": "house rent",
+      "meaning_vi": "tiền thuê nhà",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/yachin.mp3"
+    },
+    {
+      "id": "l22_15",
+      "kana": "うーん",
+      "kanji": "",
+      "romaji": "ūn",
+      "meaning_en": "Let me see.",
+      "meaning_vi": "Ừm...",
+      "type_en": "expression",
+      "type_vi": "biểu thức suy nghĩ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/ūn.mp3"
+    },
+    {
+      "id": "l22_16",
+      "kana": "ダイニングキチン",
+      "kanji": "",
+      "romaji": "dainingu kitchin",
+      "meaning_en": "kitchen with a dining area",
+      "meaning_vi": "bếp kết hợp phòng ăn",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/dainingu_kitchin.mp3"
+    },
+    {
+      "id": "l22_17",
+      "kana": "わしつ",
+      "kanji": "和室",
+      "romaji": "washitsu",
+      "meaning_en": "Japanese-style room",
+      "meaning_vi": "phòng kiểu Nhật",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/washitsu.mp3"
+    },
+    {
+      "id": "l22_18",
+      "kana": "おしいれ",
+      "kanji": "押し入れ",
+      "romaji": "oshiire",
+      "meaning_en": "Japanese-style closet",
+      "meaning_vi": "tủ kiểu Nhật (để futon)",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/oshiire.mp3"
+    },
+    {
+      "id": "l22_19",
+      "kana": "ふとん",
+      "kanji": "布団",
+      "romaji": "futon",
+      "meaning_en": "Japanese-style mattress and quilt",
+      "meaning_vi": "chăn đệm kiểu Nhật",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/futon.mp3"
+    },
+    {
+      "id": "l22_20",
+      "kana": "アパート",
+      "kanji": "",
+      "romaji": "apāto",
+      "meaning_en": "apartment",
+      "meaning_vi": "căn hộ",
+      "type_en": "noun",
+      "type_vi": "danh từ",
+      "audio": "https://pub-91beb4efb6f04d0db62faa85e9c3eeb0.r2.dev/audio/minna/lesson22/apāto.mp3"
+    }
+  ]
+}
